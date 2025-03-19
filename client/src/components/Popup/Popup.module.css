@@ -1,0 +1,76 @@
+.popup {
+  position: absolute;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  max-width: 300px;
+  max-height: 80vh;
+  overflow: auto;
+  color: #213547;
+}
+
+.popupTitle {
+  margin: 0 0 16px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #213547;
+  text-align: left;
+}
+
+.popupText {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #213547;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.label {
+  color: #213547;
+  font-weight: 600;
+  min-width: 80px;
+}
+
+.value {
+  color: #666;
+  font-weight: 400;
+  flex: 1;
+}
+
+.measurementSection {
+  margin-top: 16px;
+  border-top: 1px solid #eee;
+  padding-top: 16px;
+}
+
+.measurementSectionTitle {
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #213547;
+  text-align: left;
+}
+
+.measurementItem {
+  display: flex;
+  align-items: flex-start;
+  margin: 8px 0;
+  text-align: left;
+}
+
+.measurementLabel {
+  color: #213547;
+  font-weight: 600;
+  min-width: 120px;
+  padding-right: 8px;
+  font-size: 14px;
+}
+
+.measurementValue {
+  color: #666;
+  font-weight: 400;
+  flex: 1;
+  font-size: 14px;
+}

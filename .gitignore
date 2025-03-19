@@ -56,3 +56,4 @@ bld/
 
 # SQLite database
 *.sqlite 
+client/.env
