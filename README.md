@@ -40,6 +40,24 @@ The server will automatically:
 - Import data from CSV files in the `data` directory
 - Start the API server on `http://localhost:3000`
 
+## Server
+
+### Development Mode
+
+```bash
+cd server
+npm install
+npm run start:dev
+```
+
+### Production Mode
+
+```bash
+cd server
+npm install
+npm run start:prod
+```
+
 ## Frontend Application
 
 The frontend is built using React and provides:
