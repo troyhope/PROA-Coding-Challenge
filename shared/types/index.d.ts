@@ -1,6 +1,6 @@
 export type WeatherStation = {
     id: number;
-    wsName: string;
+    ws_name: string;
     site: string;
     portfolio: string;
     state: string;
@@ -17,7 +17,7 @@ export type Variable = {
 export type Measurement = {
     stationId: number;
     variableId: number;
-    timestamp: Date;
+    timestamp: string;
     value: number;
     unit: string;
     variableName: string;

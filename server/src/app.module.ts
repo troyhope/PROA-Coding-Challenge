@@ -1,6 +1,6 @@
 import { Module } from "@nestjs/common";
 import { TypeOrmModule } from "@nestjs/typeorm";
-import { WeatherStationModule } from "./weather-station/weather-station.module.js";
+import { WeatherStationModule } from "./weather-station/weather-station.module";
 import { WeatherStation } from "./entities/weather-station.entity";
 import { Measurement } from "./entities/measurement.entity";
 

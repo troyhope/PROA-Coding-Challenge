@@ -27,7 +27,11 @@ export class DatabaseService implements OnModuleInit {
     @InjectRepository(Measurement)
     private measurementRepo: Repository<Measurement>
   ) {
-    this.dataPath = path.resolve(__dirname, "../../data");
+    const isDevelopment = process.env.NODE_ENV !== "production";
+    this.dataPath = isDevelopment
+      ? path.resolve(__dirname, "../../data")
+      : path.resolve(__dirname, "../../data");
+    this.logger.log(`Data path set to: ${this.dataPath}`);
   }
 
   async onModuleInit() {
