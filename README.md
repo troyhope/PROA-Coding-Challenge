@@ -99,7 +99,7 @@ The frontend is built using React and provides:
 5. Start the development server:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
 The frontend will be available at `http://localhost:5173`

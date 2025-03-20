@@ -1,7 +1,7 @@
 import axios from "axios";
 import { WeatherStation, Measurement } from "@shared/types";
 
-const BASE_URL = "http://localhost:5000/api/weatherstation";
+const BASE_URL = "http://localhost:5001/api/weatherstation";
 
 export const weatherStationApi = {
   getStations: async (state?: string) => {
