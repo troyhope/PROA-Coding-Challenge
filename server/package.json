@@ -5,7 +5,7 @@
   "scripts": {
     "build": "nest build -p tsconfig.build.json",
     "start": "NODE_ENV=production node dist/server/src/main.js",
-    "start:dev": "NODE_ENV=development ts-node-dev --respawn src/main.ts",
+    "start:dev": "cross-env NODE_ENV=development ts-node-dev --respawn src/main.ts",
     "start:prod": "npm run build && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -30,6 +30,7 @@
   "devDependencies": {
     "@nestjs/cli": "^11.0.5",
     "@types/node": "^22.13.10",
+    "cross-env": "^7.0.3",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0"
   }
